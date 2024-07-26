@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.7.0",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/release-notes-generator": "^14.0.1",
@@ -77,14 +78,22 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      [
         "@semantic-release/git",
         {
           "assets": [
-            "package.json"
+            "package.json",
+            "CHANGELOG.md"
           ],
           "message": "chore(release): ${nextRelease.version} [skip ci]"
         }
       ]
-    ]
+    ],
+    "npmPublish": false
   }
 }
