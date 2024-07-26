@@ -1,7 +1,7 @@
-import { Title } from "@solidjs/meta";
-import { createAsync } from "@solidjs/router";
-import Counter from "~/components/Counter";
-import { api } from "~/lib/api";
+import { Title } from '@solidjs/meta';
+import { createAsync } from '@solidjs/router';
+import Counter from '~/components/Counter';
+import { api } from '~/lib/api';
 
 export default function Home() {
   const hello = createAsync(() => api.example.hello.query(1));
@@ -13,14 +13,14 @@ export default function Home() {
       </h1>
       <Counter />
       <p class="mt-8">
-        Visit{" "}
+        Visit{' '}
         <a
           href="https://start.solidjs.com"
           target="_blank"
           class="text-sky-600 hover:underline"
         >
           start.solidjs.com
-        </a>{" "}
+        </a>{' '}
         to learn how to build SolidStart apps.
       </p>
       <pre>
