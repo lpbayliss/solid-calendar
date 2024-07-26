@@ -4,7 +4,7 @@ import Counter from "~/components/Counter";
 import { api } from "~/lib/api";
 
 export default function Home() {
-  const hello = createAsync(() => api.example.hello.query("Calendar"));
+  const hello = createAsync(() => api.example.hello.query(1));
   return (
     <main class="text-center mx-auto text-gray-700 p-4">
       <Title>Hello World</Title>
