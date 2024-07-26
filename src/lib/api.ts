@@ -8,7 +8,7 @@ import { AppRouter } from "~/server/api/root";
 const getBaseUrl = () => {
   if (typeof window !== "undefined") return "";
   // replace example.com with your actual production url
-  if (process.env.NODE_ENV === "production") return "https://example.com";
+  if (process.env.NODE_ENV === "production") return "http://localhost:3000";
   return `http://localhost:${process.env.PORT ?? 3000}`;
 };
 
