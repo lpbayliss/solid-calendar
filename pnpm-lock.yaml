@@ -22,13 +22,16 @@ dependencies:
     version: 10.45.2
   '@typeschema/valibot':
     specifier: ^0.13.4
-    version: 0.13.4(valibot@0.29.0)
+    version: 0.13.4(valibot@0.36.0)
   autoprefixer:
     specifier: ^10.4.19
     version: 10.4.19(postcss@8.4.40)
   better-sqlite3:
     specifier: ^11.1.2
     version: 11.1.2
+  dayjs:
+    specifier: ^1.11.12
+    version: 1.11.12
   drizzle-orm:
     specifier: ^0.32.1
     version: 0.32.1(@types/better-sqlite3@7.6.11)(better-sqlite3@11.1.2)
@@ -42,8 +45,8 @@ dependencies:
     specifier: ^3.4.7
     version: 3.4.7
   valibot:
-    specifier: ^0.29.0
-    version: 0.29.0
+    specifier: ^0.36.0
+    version: 0.36.0
   vinxi:
     specifier: ^0.4.1
     version: 0.4.1(@types/node@20.14.12)(better-sqlite3@11.1.2)(drizzle-orm@0.32.1)
@@ -2425,7 +2428,7 @@ packages:
         optional: true
     dev: false
 
-  /@typeschema/valibot@0.13.4(valibot@0.29.0):
+  /@typeschema/valibot@0.13.4(valibot@0.36.0):
     resolution: {integrity: sha512-DU095eQ3gy5AS4HGTzWWOmGNMZuAMkV9QQe+TtA6a4rdGzBS7c2KPG4IKcs14yIJ/PsSHHrEdODpRms6qF1vJQ==}
     peerDependencies:
       '@gcornut/valibot-json-schema': ^0.0.25
@@ -2437,7 +2440,7 @@ packages:
         optional: true
     dependencies:
       '@typeschema/core': 0.13.2
-      valibot: 0.29.0
+      valibot: 0.36.0
     transitivePeerDependencies:
       - '@types/json-schema'
     dev: false
@@ -3663,6 +3666,10 @@ packages:
     dependencies:
       '@deno/shim-deno': 0.19.2
       undici-types: 5.28.4
+    dev: false
+
+  /dayjs@1.11.12:
+    resolution: {integrity: sha512-Rt2g+nTbLlDWZTwwrIXjy9MeiZmSDI375FvZs72ngxx8PDC6YXOeR3q5LAuPzjZQxhiWdRKac7RKV+YyQYfYIg==}
     dev: false
 
   /db0@0.1.4(better-sqlite3@11.1.2)(drizzle-orm@0.32.1):
@@ -8045,8 +8052,8 @@ packages:
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  /valibot@0.29.0:
-    resolution: {integrity: sha512-JhZn08lwZPhAamOCfBwBkv/btQt4KeQhekULPH8crH053zUCLSOGEF2zKExu3bFf245tsj6J1dY0ysd/jUiMIQ==}
+  /valibot@0.36.0:
+    resolution: {integrity: sha512-CjF1XN4sUce8sBK9TixrDqFM7RwNkuXdJu174/AwmQUB62QbCQADg5lLe8ldBalFgtj1uKj+pKwDJiNo4Mn+eQ==}
     dev: false
 
   /validate-html-nesting@1.2.2:
