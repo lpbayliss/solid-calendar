@@ -27,7 +27,7 @@ jobs:
           node-version: "20.x"
 
       - name: Install PNPM
-        uses: pnpm/action-setup@v3.0.0
+        uses: pnpm/action-setup@v4.0.0
         id: pnpm-install
         with:
           version: 8
@@ -71,7 +71,7 @@ jobs:
           scope: "@lpbayliss"
 
       - name: Install PNPM
-        uses: pnpm/action-setup@v3.0.0
+        uses: pnpm/action-setup@v4.0.0
         id: pnpm-install
         with:
           version: 8
@@ -121,7 +121,7 @@ jobs:
           scope: '@lpbayliss'
 
       - name: Install PNPM
-        uses: pnpm/action-setup@v3.0.0
+        uses: pnpm/action-setup@v4.0.0
         id: pnpm-install
         with:
           version: 8
