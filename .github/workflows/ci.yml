@@ -50,7 +50,7 @@ jobs:
         run: pnpm install
 
       - name: Lint Project
-        run: pnpm run lint:check
+        run: pnpm run lint
 
   test:
     name: Run Tests
