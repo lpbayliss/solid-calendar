@@ -22,7 +22,7 @@ dependencies:
     version: 10.45.2
   '@typeschema/valibot':
     specifier: ^0.13.4
-    version: 0.13.4(valibot@0.36.0)
+    version: 0.13.5(valibot@0.36.0)
   autoprefixer:
     specifier: ^10.4.19
     version: 10.4.19(postcss@8.4.40)
@@ -2429,11 +2429,11 @@ packages:
         optional: true
     dev: false
 
-  /@typeschema/valibot@0.13.4(valibot@0.36.0):
-    resolution: {integrity: sha512-DU095eQ3gy5AS4HGTzWWOmGNMZuAMkV9QQe+TtA6a4rdGzBS7c2KPG4IKcs14yIJ/PsSHHrEdODpRms6qF1vJQ==}
+  /@typeschema/valibot@0.13.5(valibot@0.36.0):
+    resolution: {integrity: sha512-9S3daaU7ShC1aRkZVmsW5N8uTPE7l4Af/c+rWTyFZi2/yp4Iiped8947WGX03lMd3UW6/UdbfOaiOh7HByQPiw==}
     peerDependencies:
-      '@gcornut/valibot-json-schema': ^0.0.25
-      valibot: ^0.29.0
+      '@gcornut/valibot-json-schema': ^0.31.0
+      valibot: ^0.31.0
     peerDependenciesMeta:
       '@gcornut/valibot-json-schema':
         optional: true
