@@ -2,7 +2,7 @@
   "name": "example-with-trpc",
   "type": "module",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.1.1",
   "engines": {
     "node": ">=18"
   },
