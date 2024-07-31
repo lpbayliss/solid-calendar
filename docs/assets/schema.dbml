@@ -1,0 +1,14 @@
+table events {
+  id integer [pk, not null, unique]
+  title text [not null]
+  start_date text [not null]
+  end_date text
+  start_hour integer
+  start_minute integer
+  duration integer
+}
+
+table users {
+  id integer [pk, not null, unique]
+  username text [not null, default: '']
+}
